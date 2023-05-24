@@ -1,0 +1,46 @@
+.AllFoot {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 2% auto;
+}
+
+.NameFoot {
+    margin-left: 20%;
+    font-size: 140%;
+    color: rgba(255, 255, 255, 0.948);
+}
+
+#AllSocialIcon {
+    margin-left: 0%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .AllFoot {
+        grid-template-columns: auto;
+        
+    }
+
+    .NameFoot{
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        align-items: center;
+    }
+
+    #AllSocialIcon {
+        margin-left: 0%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #SocialIcon{
+        margin-right: 2%;
+
+    }
+
+    .navbar-nav{
+        width: 0%;
+    }
+
+}

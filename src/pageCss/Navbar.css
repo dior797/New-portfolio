@@ -1,0 +1,21 @@
+.navbar-brand {
+    margin-left: 20%;
+    font-size: 165%;
+    
+}
+
+.navItem {
+    margin-left: 30%;
+}
+
+
+@media screen and (max-width: 991px) {
+    .navbar-brand {
+        margin-left: 0%;
+    }
+
+    .navItem {
+        margin-left: 0%;
+    }
+}
+
